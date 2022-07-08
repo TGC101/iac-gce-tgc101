@@ -101,7 +101,6 @@
       when: 
         - ansible_facts['hostname'] == 'master'
       
-    
 
     - name: Nginx config
       template:
